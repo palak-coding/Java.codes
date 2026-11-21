@@ -1,0 +1,22 @@
+// Print the Solid Rhombus Pattern.
+ class Main { 
+public static void main(String[] args){ 
+int n=5; 
+// Outer loop for number of rows
+ 
+for(int i=1;i<=n;i++){ 
+// space inner loop 
+
+for(int j=n-i;j>=0;j--){ 
+System.out.print(" "); 
+} 
+
+// star print inner loop 
+
+for(int j=1;j<=n;j++){ 
+System.out.print("*");
+ } 
+System.out.println();
+ } 
+} 
+}
